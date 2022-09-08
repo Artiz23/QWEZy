@@ -1,0 +1,279 @@
+
+/*-----------MAIN--------------*/
+.main{
+    flex: 1 1 auto;
+
+   position: relative;
+    
+   
+}
+/*-------------SECTION--DISCOVER-----------------*/
+.discover {
+    position: relative;
+   
+    display: grid;
+    
+    
+}
+.discover__body {
+    margin: 100px 0 735px 0;
+    
+}
+.bord-text__discover {
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 0;
+   
+}
+.bord__discover {
+    content: "";
+    height: 2px;
+    background: #FBD784;
+    width: 72px;
+    display: block;
+}
+.bord__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    
+    /* Accent */
+    
+    color: #FBD784;
+
+    padding: 0 0 0 24px;
+}
+.title__text__discover {
+    
+}
+.title__discover {
+    font-size: 95px;
+    font-weight: 700;
+    padding: 20px 0 10px 0;
+}
+.text__discover {
+    font-size: 95px;
+    padding: 0 0 225px 0;
+}
+.scroll__discover {
+    width: 130px;
+    margin: 0 auto;
+}
+
+.scroll{
+    display: flex;
+    color: rgb(255, 255, 255);
+
+    justify-content: center;
+    
+    transition: 0.3s all ease 0s;
+}
+
+.scroll__text {
+}
+
+.scroll__discover img{
+    transform: rotate(90deg);
+}
+
+
+/*-------------------SECTIOM--HOLIDAY---------------------*/
+
+.holiday {
+
+}
+
+.holiday__body {
+    display: grid;
+    grid-template-columns: 65% 1fr;
+}
+
+
+.holiday__image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.holiday__image img{
+    
+    max-width: 100vw;
+}
+.holiday__block_text {
+    padding: 60px 0;
+}
+
+.title__holiday {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+
+color: #FFFFFF;
+}
+.holiday__text {
+    padding:20px  0;
+    font-weight: 600;
+font-size: 18px;
+line-height: 178%;
+/* or 178% */
+}
+.read-more__holiday {
+    display: flex;
+    width: 130px;
+    margin: 0 auto;
+}
+.text-read-more__holiday {
+    font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* Accent */
+
+color: #FBD784;
+}
+
+.read-more__holiday img{
+    padding: 0 0 0 10px;
+}
+
+
+/*------------SECTION--STEPS----------------*/
+.steps {
+    margin: 200px 0;
+}
+
+.steps__body {
+    text-align: center;
+     
+    position: relative;
+    
+ 
+  
+}
+.steps__block_text{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 130%;
+    grid-template-rows: 1fr;
+
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    z-index: 5;
+}
+
+
+.image__steps {
+    background-image: url("../img/Steps.jpg") ;
+     
+     height: 100vh;
+     max-width: 100vw;
+     background-repeat: no-repeat;
+    
+     background-position: center;
+}
+
+
+.bord-text__steps {
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px 0;
+    justify-content: center;
+}
+.bord__steps {
+    content: "";
+    height: 2px;
+    background: #FBD784;
+    width: 72px;
+    display: block;
+}
+
+.bord-step__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    
+    /* Accent */
+    
+    color: #FBD784;
+
+    padding: 0 12px 0 24px;
+}
+
+
+.steps__text{
+    padding:20px  0;
+    font-weight: 600;
+font-size: 18px;
+line-height: 178%;
+
+}
+
+.steps__title{
+    font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+
+color: #FFFFFF;
+
+}
+
+
+.read-more__steps {
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    margin: 0 auto;
+   
+}
+.text-read-more__steps {
+    font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* Accent */
+
+color: #FBD784;
+}
+
+.read-more__steps img{
+    padding: 0 0 0 10px;
+}
+
+
+
+
+/*---------------------SECTION-----PEOPLE----------------*/
+
+.people__body {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+}
+
+
+
+
+
+.read-more__people{
+    display: flex;
+    width: 130px;
+    
+}
+
+.read-more__people img {
+    padding: 0 0 0 10px;
+}
